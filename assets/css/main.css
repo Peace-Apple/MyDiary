@@ -120,10 +120,149 @@ div.login-section p.down a.rgt{
 }
 
 
+/*------------------------------------------*/
+body{
+	background-color: #E7E8ED;
+}
 
+header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+	background-color: white;
+	border-bottom: 1px solid silver;
+	z-index: 999;
+}
 
+header h2{
+	padding: 0px 0px 0px 0px;
+	margin: 7px 0px 0px 80px;
+	float: left;
+}
 
+header ul{
+	list-style: none;
+	float: right;
+	padding: 10px 0px 0px 0px;
+	margin: 0px 80px 0px 0px;
+	position: relative;
+	overflow: auto;
+	height: 30px;
+}
 
+header ul li{
+	display: inline;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 10px 0px 0px;
+	overflow: auto;
+	position: relative;
+}
 
+header ul li a{
+	text-decoration: none;
+	padding: 0px 5px 5px 5px;
+	position: relative;
+	color: #5CDB95;
+}
 
+div.content-section{
+	margin: 32px 0px 0px 0px;
+	left: 0px;
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+}
 
+div.content-section .information{
+	overflow: auto;
+	padding: 30px 80px;
+}
+
+div.content-section .information .left{
+	float: left;
+	width: 25%;
+	padding: 15px;
+	background-color: white;
+	border: 1px solid silver;
+}
+
+div.content-section .information .left img{
+	width: 100%;
+}
+
+.profile-content h2{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.profile-content p{
+	margin: 10px 0px 0px 0px;
+}
+div.content-section .information .right{
+	float: right;
+	width: 65%;
+	padding: 15px;
+	border: 1px solid silver;
+	background-color: white;
+}
+
+div.content-section .information .right h2{
+	margin: 0px 0px 15px 0px;
+}
+
+div.content-section .information .right form input[type="text"]{
+	display: block;
+	width: 97%;
+	padding: 8px 10px;
+	position: relative;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 2px solid #5CDB95;
+}
+
+div.content-section .information .right form textarea{
+	display: block;
+	margin-bottom: 15px;
+	border: 2px solid #5CDB95;
+	border-radius: 5px;
+	padding: 8px 10px;
+	width: 97%;
+	height: 200px;
+}
+
+div.content-section .information .right form input[type="submit"]{
+	border: 2px solid #5CDB95;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #05386B;
+    color: #5CDB95;
+}
+
+div.all-entries{
+	background-color: #E7E8ED;
+	padding: 15px;
+}
+
+div.all-entries .single-entry{
+	background-color: white;
+	border: 1px solid silver;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+div.all-entries .single-entry h3{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+div.all-entries .single-entry p{
+	margin: 8px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+div.all-entries .single-entry p.links a{
+	text-decoration: none;
+	color: #5CDB95;
+}
