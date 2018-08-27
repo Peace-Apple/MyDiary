@@ -1,7 +1,21 @@
-body{
+body.back-image{
     background-image: url(../../assets/images/blank4.jpg);
     background-size:100%;
-    }
+	}
+header ul li.active{
+	background-color: silver;
+	padding:10px 5px;
+}
+ header ul li.active a{
+	color: white;
+}
+header ul li:hover{
+	background-color: whitesmoke;
+	padding:10px 5px;
+}
+header ul li:hover a{
+	color:black;
+}
 div.login-header{
 	overflow: auto;
 	padding: 5px 10px 15px 5px;
