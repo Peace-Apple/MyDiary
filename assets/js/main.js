@@ -9,5 +9,5 @@ function signedUp(){
 	alert("You have successfully created an account.")
 }
 function addEntry(){
-	alert("You have added an entry")
+	alert("You have added an entry.")
 }
